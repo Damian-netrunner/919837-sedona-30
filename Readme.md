@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий](https://up.htmlacademy.ru/htmlcss/30/user/919837).
-* Наставник: [Катя Мигулянец](https://htmlacademy.ru/profile/id50166).
+* Наставник: [Катя Микулянец](https://htmlacademy.ru/profile/id50166).
 
 ---
 
