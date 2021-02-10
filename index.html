@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html сlass="page" lang="ru">
 
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="img/favicon/favicon.ico">
     <link rel="icon" href="img/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="#"><img src="img/index-logo.svg" width="138" height="70" alt="Логотип Седона"></a>
-            <ul>
+<body сlass="page-body">
+    <header сlass="main-header">
+        <nav сlass="main-navigation">
+            <a href="#" сlass="main-header-logo"><img src="img/index-logo.svg" width="138" height="70" alt="Логотип Седона"></a>
+            <ul сlass="site-navifation">
                 <li><a href="#">Информация</a></li>
                 <li><a href="#">Фото и видео</a></li>
                 <li><a href="#">Карта штата</a></li>
@@ -21,16 +25,16 @@
         </nav>
     </header>
 
-    <main>
+    <main сlass="container">
         <h1>Поиск жилья "Седона"</h1>
-        <section>
+        <section сlass="logo">
             <!-- иконки звезд svg в разметку, и каледаря, понятные и русскоязычные тексты alt -->
              <img src="img/welcome.png" width="457" height="351" alt="Добро пожаловать в Седону, потому что Большой каньон отстой"> <!-- надо будет еще оптимизировать PNG -->
             
             <img src="img/background-decoration.svg" width="1200" height="57" alt="">
         </section>
 
-        <section>
+        <section сlass="features">
             <div>
                 <h2>
                     Седона — небольшой городок в Аризоне, заслуживающий большего!
@@ -40,16 +44,15 @@
                 </p>
             </div>
 
-            <ul>
-
-                <li>
+            <ul сlass="featues-list">
+                <li сlass="features-item">
                     <h3>Настоящий городок</h3>
                     <p>— №1 —</p>
                     <p>Седона - не аттракцион для туристов, там
                         течёт своя жизнь</p>
                         <img src="img/town.jpg" width="800" height="256" alt="Вид дворика туристического городка">    
                 </li>
-                <li>
+                <li сlass="features-item">
                     <h3>Там есть Мост дьявола</h3>
                     <p>— №2 —</p>
                     <p>Да, по нему можно пройти! Если конечно
@@ -57,17 +60,17 @@
                         <img src="img/canyon.jpg" width="800" height="256" alt="Вид"> 
                 </li>
 
-                <li>
-                    <ul>
-                        <li><img src="img/icon-home.png" width="75" height="72" alt="Иконка жилья">
+                <li сlass="features-item">
+                    <ul> <!-- может стоит поменять вложенность списков -->
+                        <li сlass="features-item"><img src="img/icon-home.png" width="75" height="72" alt="Иконка жилья">
                             <h3>Жильё</h3>
                             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                         </li>
-                        <li><img src="img/icon-food.png" width="75" height="70" alt="Иконка бургера">
+                        <li сlass="features-item"><img src="img/icon-food.png" width="75" height="70" alt="Иконка бургера">
                             <h3>Еда</h3>
                             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                         </li>
-                        <li><img src="img/icon-present.png" width="64" height="77" alt="Иконка подарка">
+                        <li сlass="features-item"><img src="img/icon-present.png" width="64" height="77" alt="Иконка подарка">
                             <h3>Сувениры</h3>
                             <p>Не только китайского, но и местного
                                 производства!</p>
@@ -76,21 +79,21 @@
                 </li>
                 <li>
                     <ul>
-                        <li>
+                        <li сlass="features-item">
                             <h3>небольшая
                                 площадь</h3>
                             <p>— №3 —</p>
                             <p>все достопримечательности
                                 находятся очень близко</p>
                         </li>
-                        <li>
+                        <li сlass="features-item">
                             <h3>красивая
                                 дорога</h3>
                             <p>— №4 —</p>
                             <p>ехать в седону из лас-вегаса совсем
                                 не скучно!</p>
                         </li>
-                        <li>
+                        <li сlass="features-item">
                             <h3>мало
                                 туристов</h3>
                             <p>— №5 —</p>
@@ -103,11 +106,10 @@
         </section>
 
 
-        <section>
+        <section сlass="map">
             <h2>Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <figure>
-
                 <img src="img/map.png" width="1200" height="594" alt="Карта">
             </figure>
         </section>
@@ -134,20 +136,20 @@
                 <input type="number" value="0" id="adult-counter">
             </p>
 
-            <input type="submit" value="Найти">
+            <a href="" class="button"><input type="submit" value="Найти"></a>
         </form>
     </main>
 
-    <footer>
+    <footer сlass="main-footer">
         <a href="#">#visitSEDONA</a>
-        <a href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
-        <ul>
-            <li><a href="#"><img src="img/twitter.png" width="17" height="15" alt="Twitter"></a></li>
-            <li><a href="#"><img src="img/facebook.png" width="12" height="22" alt="Facebook"></a></li>
-            <li><a href="#"><img src="img/youtube.png" width="20" height="16" alt="Youtube"></a></li>
+        <a class="footer-phone" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+        <ul сlass="footer-social">
+            <li сlass="footer-social-item"><a href="#" сlass="footer-social-button"><img src="img/twitter.png" width="17" height="15" alt="Twitter"></a></li>
+            <li сlass="footer-social-item"><a href="#" сlass="footer-social-button"><img src="img/facebook.png" width="12" height="22" alt="Facebook"></a></li>
+            <li сlass="footer-social-item"><a href="#" сlass="footer-social-button"><img src="img/youtube.png" width="20" height="16" alt="Youtube"></a></li>
         </ul>
 
-        <p>Website by</p><a href="https://up.htmlacademy.ru/htmlcss/30"><img src="img/logo-html.png" width="114" height="40" alt="logo htmlacademy"></a>
+        <p>Website by</p><a href="https://up.htmlacademy.ru/htmlcss/30"><img src="img/logo-html.png" width="114" height="40" alt="logo htmlacademy"></a> <!--Поменять на SVG-->
     </footer>
 </body>
 
