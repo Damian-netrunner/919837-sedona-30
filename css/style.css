@@ -26,8 +26,6 @@
 
 
 
-
-
 /* объявление кастомных свойств */
 
 :root {
@@ -38,6 +36,7 @@
     --basic-light-blue: #81B3D2;
     --basic-grey: #F2F2F2;
     --basic-brown: #766357;
+    --basic-opacity-white:rgba(255, 255, 255, 0.3);
 }
 
  
@@ -45,22 +44,140 @@ body {
        /* min-width: 960px; */
         margin: 0;
         padding: 0;
-        font-family: "PT Sans Narrow", Arial, sans-serif;
+        font-family: "PT Sans", Arial, sans-serif;
         font-size: 14px;
         line-height: 26px;
         font-weight: 700;
-        color: var(--basic-white);
+        color: var( --basic-black);
      /*   text-transform: uppercase; */
-        background-color: var(--back-color);
-       
+     /*   background-color: var(--back-color); */
+        text-transform: uppercase;   
+        list-style: none;    
       }
       
 
+a {
+  text-decoration: none;
+}
 
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  
+}
+
+.site-navigation a {
+  color: var( --basic-black);
+}
+
+.site-navigation li {
+  list-style: none;
+}
+
+.features-list li {
+list-style: none;
+font-size: 14px;
+line-height: 21px;
+}
+
+.features h2,
+.features h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features p {
+  font-weight: 400;
+  font-size: 14px;
+}
 
 
+.map h2 {
+  font-size: 30px;
+  line-height: 24px;
+} 
 
+.map-dates {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
 
+.form-header {
+  color: var( --basic-white);
+  font-size: 21px;
+  background-color: var(--basic-brown);
+}
 
+.main-footer a {
+  font-size: 21px;
+  color: var( --basic-black);
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.site-development {
+  font-weight: 400;
+}
+
+.index-form input {
+  background-color: var(--basic-grey);
+}
+
+.button {
+  background-color: var(--basic-light-blue);
+  color: var(--basic-white);
+}
+
+/* Состояния кнопок и интерфейса*/
+
+.site-navigation a:hover {
+  color: var(--basic-light-blue);
+}
+
+.site-navigation a:active {
+  color: var(--basic-dark-grey);
+}
+
+.site-navigation a:focus, {
+  color: var(--basic-brown);
+}
+
+/*.site-navigation a:visited {
+  color: var(--basic-brown);
+} */
+
+.form-header:hover {
+  background-color: #604E43;
+}
+
+.form-header:active {
+background-color: #503E33;
+color: var(--basic-opacity-white);
+}
+
+.button:hover {
+  background-color: #669EC0;
+} 
+.button:active {
+  background-color: #5496BD;
+  color: var(--basic-opacity-white);
+}
+
+.footer-social img {
+  background-color: var(--basic-light-blue);
+}
+
+.footer-social img:hover {
+  background-color: #669EC0;
+}
+
+.footer-social img:active {
+  background-color: #5496BD;
 }
