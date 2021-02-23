@@ -95,7 +95,6 @@ line-height: 21px;
   font-size: 14px;
 }
 
-
 .map h2 {
   font-size: 30px;
   line-height: 24px;
@@ -133,6 +132,15 @@ line-height: 21px;
 .button {
   background-color: var(--basic-light-blue);
   color: var(--basic-white);
+}
+
+.first-item, .second-item {
+  background-color: var(--basic-light-blue);
+  color: var( --basic-white);
+}
+
+.grey-item {
+background-color: var(--basic-grey);;
 }
 
 /* Состояния кнопок и интерфейса*/
