@@ -34,6 +34,8 @@
     --basic-dark-grey: #333333;
     --basic-white: #FFFFFF;
     --basic-light-blue: #81B3D2;
+    --basic-blue: #669EC0;
+    --basic-dark-blue: #5496BD;
     --basic-grey: #F2F2F2;
     --basic-brown: #766357;
     --basic-opacity-white:rgba(255, 255, 255, 0.3);
@@ -62,12 +64,13 @@ a {
 
 
 .visually-hidden {
-  position: absolute;
   clip: rect(0 0 0 0);
-  width: 1px;
+  clip-path: inset(50%);
   height: 1px;
-  margin: -1px;
-  
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .site-navigation a {
@@ -76,6 +79,10 @@ a {
 
 .site-navigation li {
   list-style: none;
+}
+
+.features-list {
+  text-align: center;
 }
 
 .features-list li {
@@ -107,14 +114,14 @@ line-height: 21px;
 }
 
 .form-header {
-  color: var( --basic-white);
+  color: var(--basic-white);
   font-size: 21px;
   background-color: var(--basic-brown);
 }
 
 .main-footer a {
   font-size: 21px;
-  color: var( --basic-black);
+  color: var(--basic-black);
 }
 
 .footer-social {
@@ -139,11 +146,21 @@ line-height: 21px;
   color: var( --basic-white);
 }
 
+
 .grey-item {
-background-color: var(--basic-grey);;
+background-color: var(--basic-grey);
+}
+
+/* декоративные изображения */
+.sedona-background {
+  background-image: url(img/background-sedona.jpg);
+  background-repeat: no-repeat;
+  height: 509px;
+  background-position: center;
 }
 
 /* Состояния кнопок и интерфейса*/
+
 
 .site-navigation a:hover {
   color: var(--basic-light-blue);
@@ -153,7 +170,7 @@ background-color: var(--basic-grey);;
   color: var(--basic-dark-grey);
 }
 
-.site-navigation a:focus, {
+.site-navigation a:focus {
   color: var(--basic-brown);
 }
 
@@ -171,10 +188,10 @@ color: var(--basic-opacity-white);
 }
 
 .button:hover {
-  background-color: #669EC0;
+  background-color: var(--basic-blue);
 } 
 .button:active {
-  background-color: #5496BD;
+  background-color: var(--basic-dark-blue);
   color: var(--basic-opacity-white);
 }
 
@@ -183,9 +200,10 @@ color: var(--basic-opacity-white);
 }
 
 .footer-social img:hover {
-  background-color: #669EC0;
+  background-color: var(--basic-blue);
 }
 
 .footer-social img:active {
-  background-color: #5496BD;
+  background-color: var(--basic-dark-blue);
 }
+
