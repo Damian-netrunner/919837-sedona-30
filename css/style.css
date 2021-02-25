@@ -181,6 +181,11 @@ background-color: var(--basic-grey);
   font-weight: 400;
 }
 
+.features h2,
+.features p {
+  text-align: center;
+}
+
 /* декоративные изображения */
 .sedona-background {
   background-image: url(img/background-sedona.jpg);
