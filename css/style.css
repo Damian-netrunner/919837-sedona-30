@@ -117,6 +117,7 @@ line-height: 21px;
   color: var(--basic-white);
   font-size: 21px;
   background-color: var(--basic-brown);
+  text-align: center;
 }
 
 .main-footer a {
@@ -186,19 +187,45 @@ background-color: var(--basic-grey);
   text-align: center;
 }
 
+.name, .price {
+color: var(--basic-dark-grey);
+}
+
+.search-button {
+  text-transform: uppercase;
+  font-weight: 400;
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+}
+
+a.sorting-button  {
+  border-style: none
+}
+
+.index-form input{
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+
 /* декоративные изображения */
 .sedona-background {
-  background-image: url(img/background-sedona.jpg);
+  background-image: url(../img/background-sedona.jpg);
   background-repeat: no-repeat;
   height: 509px;
   background-position: center;
 }
 
-section .sedona-form {
-  background-image: url(img/background-search.jpg);
+.sedona-form {
+  color: var(--basic-white);
+  font-weight: 400;
+  background-image: url(../img/background-search.jpg);
   background-repeat: no-repeat;
   height: 217px;
   background-position: center;
+  width: 1200px;
 }
 
 .search-result h2 {
@@ -300,3 +327,5 @@ color: var(--basic-opacity-white);
 .search-result h2:active {
   color: var(--back-color);
 }
+
+
