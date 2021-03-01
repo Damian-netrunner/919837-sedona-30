@@ -117,6 +117,7 @@ line-height: 21px;
   color: var(--basic-white);
   font-size: 21px;
   background-color: var(--basic-brown);
+  text-align: center;
 }
 
 .main-footer a {
@@ -151,12 +152,84 @@ line-height: 21px;
 background-color: var(--basic-grey);
 }
 
+.filter-type {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.filter-type a {
+  color: var(--back-color);
+  border-bottom-color: var(--basic-light-blue);
+  border-bottom-style: dotted;
+}
+
+.result-quantity {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.search-result ul{
+  list-style: none;
+}
+
+.rating {
+  background-color: var(--basic-grey);
+  color: #666666;
+}
+
+.result-list p {
+  font-weight: 400;
+}
+
+.features h2,
+.features p {
+  text-align: center;
+}
+
+.name, .price {
+color: var(--basic-dark-grey);
+}
+
+.search-button {
+  text-transform: uppercase;
+  font-weight: 400;
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+}
+
+a.sorting-button  {
+  border-style: none
+}
+
+.index-form input{
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+
 /* декоративные изображения */
 .sedona-background {
-  background-image: url(img/background-sedona.jpg);
+  background-image: url(../img/background-sedona.jpg);
   background-repeat: no-repeat;
   height: 509px;
   background-position: center;
+}
+
+.sedona-form {
+  color: var(--basic-white);
+  font-weight: 400;
+  background-image: url(../img/background-search.jpg);
+  background-repeat: no-repeat;
+  height: 217px;
+  background-position: center;
+  width: 1200px;
+}
+
+.search-result h2 {
+  font-size: 21px;
 }
 
 /* Состояния кнопок и интерфейса*/
@@ -167,7 +240,7 @@ background-color: var(--basic-grey);
 }
 
 .site-navigation a:active {
-  color: var(--basic-dark-grey);
+  color: var(--basic-grey);
 }
 
 .site-navigation a:focus {
@@ -206,4 +279,53 @@ color: var(--basic-opacity-white);
 .footer-social img:active {
   background-color: var(--basic-dark-blue);
 }
+
+.filter-type a:hover {
+  color: var(--basic-light-blue);
+}
+
+.filter-type a:focus {
+  color: var(--basic-light-blue);
+  border-bottom-style: none;
+}
+
+.filter-type a:active {
+  color: var(--basic-black);
+  border-bottom-style: none;
+}
+
+.filter-type a:active {
+  color: var(--basic-black);
+  border-bottom-style: none;
+}
+
+.index-form input:hover {
+  background-color: #EBEBEB;;
+} 
+
+.index-form input:focus {
+  background-color: var(--basic-white);
+} 
+
+.button-more {
+  background-color: var(--basic-brown);
+  color: var(--basic-white);
+}
+
+.button-more:hover {
+  background-color: #604E43;
+}
+
+.button-more:active {
+  background-color: #503E33;
+}
+
+.search-result h2:hover {
+  color: var(--basic-light-blue);
+}
+
+.search-result h2:active {
+  color: var(--back-color);
+}
+
 

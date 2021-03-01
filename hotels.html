@@ -30,7 +30,7 @@
         <h1 class="visually-hidden">Поиск жилья "Седона"</h1>
     
 
-<section >  
+<section class="sedona-form" style>  
     <form class ="search-form" method="get" action="https://echo.htmlacademy.ru">
     <fieldset>
       
@@ -60,45 +60,48 @@
           <label for="filter-apartments">Аппартаменты</label>
         </li>
       </ul>
+      <button class="button search-button" type="submit">Показать</button>
     </fieldset>
-    <button class="button" type="submit">Показать</button>
+    
   </form>
 </section>
 
 <section class="search-result">
-  <p>Найдено: 3</p>
-  <p>Сортировать</p>
+ <div class="filter-type"> 
+  <p class="result-quantity">Найдено: 3</p>
+  <p>Сортировка:</p>
   <a href="#">По цене</a>
   <a href="#">По типу</a>
   <a href="#">По рейтингу</a>
-  <a href="#"><img src="img/sort-ascending.svg" width="11" height="10" alt="Сортировать по возрастанию"></a>
-  <a href="#"><img src="img/sort-descending.svg" width="11" height="10" alt="Сортировать по убыванию"></a>
-<ul>
+  <a class="sorting-button" href="#"><img src="img/sort-ascending.svg" width="11" height="10" alt="Сортировать по возрастанию"></a>
+  <a class="sorting-button" href="#"><img src="img/sort-descending.svg" width="11" height="10" alt="Сортировать по убыванию"></a>
+ </div>
+<ul class="result-list">
 <li><img src="img/Amara-Resort-Spa.jpg" width="138" height="70" alt="фотография гостиницы">
 <h2>Amara Resort & Spa</h2>
-<p>Гостиница</p>
-<p>От 4000 Р.</p>
-<a href="#">Подробнее</a>
-<a href="#">Забронировать</a>  
-<p>Рейтинг <span>8,5</span></p>
+<p class="name">Гостиница</p>
+<p class="price">От 4000 Р.</p>
+<a href="#" class="button">Подробнее</a>
+<a href="#"class="button-more">Забронировать</a>  
+<p class="rating">Рейтинг <span>8,5</span></p>
 <p>рейтинг звезды<img src="img/star.svg" width="18" height="17" alt=""></p>
 </li>
 <li><img src="img/Desert-Quail-Inn.jpg" width="138" height="70" alt="фотография гостинницы">
   <h2>Desert Quail Inn</h2>
   <p>Мотель</p>
   <p>От 3000 Р.</p>  
-  <a href="#">Подробнее</a>  
-  <a href="#">Забронировать</a> 
-  <p>Рейтинг <span>8,9</span></p>
+  <a href="#" class="button">Подробнее</a>  
+  <a href="#" class="button-more">Забронировать</a> 
+  <p class="rating">Рейтинг <span>8,9</span></p>
   <p>рейтинг звезды<img src="img/star.svg" width="18" height="17" alt=""></p>
 </li>
 <li><img src="img/Villas-at-Poco-Diablo.jpg" width="138" height="70"  alt="фото апартаментов">
   <h2>Villas at Poco Diablo</h2>
   <p>Апартаменты</p>
   <p>От 2000 Р.</p>  
-  <a href="#">Подробнее</a>  
-  <a href="#">Забронировать</a> 
-  <p>Рейтинг <span>9,2</span></p>
+  <a href="#" class="button">Подробнее</a>  
+  <a href="#" class="button-more">Забронировать</a> 
+  <p class="rating">Рейтинг <span>9,2</span></p>
   <p>рейтинг звезды<img src="img/star.svg" width="18" height="17" alt=""></p>
   
 </li>
@@ -110,14 +113,14 @@
 
     <footer class="main-footer">
       <a href="#">#visitSEDONA</a>
-      <a class="contacts-phone" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
-      <ul class="main-footer-navigation">
-          <li class="footer-navigation-item"><a href="#"><img src="img/twitter.png" width="17" height="15" alt="Twitter"></a></li>
-          <li class="footer-navigation-item"><a href="#"><img src="img/facebook.png" width="12" height="22" alt="Facebook"></a></li>
-          <li class="footer-navigation-item"><a href="#"><img src="img/youtube.png" width="20" height="16" alt="Youtube"></a></li>
+      <a class="footer-phone" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+      <ul class="footer-social">
+          <li class="footer-social-item"><a href="#" class="footer-social-button"><img src="img/twitter.svg" width="17" height="15" alt="Twitter"></a></li>
+          <li class="footer-social-item"><a href="#" class="footer-social-button"><img src="img/facebook.svg" width="12" height="22" alt="Facebook"></a></li>
+          <li class="footer-social-item"><a href="#" class="footer-social-button"><img src="img/youtube.svg" width="20" height="16" alt="Youtube"></a></li>
       </ul>
 
-      <p>Website by</p><a href="https://up.htmlacademy.ru/htmlcss/30"><img src="img/logo-html.png" width="114" height="40" alt="logo htmlacademy"></a> <!--Поменять на SVG-->
+      <p class="site-development">Website by</p><a href="https://up.htmlacademy.ru/htmlcss/30"><img src="img/logo-html.svg" width="114" height="40" alt="logo htmlacademy"></a> <!--Поменять на SVG-->
   </footer>
 </body>
 
