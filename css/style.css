@@ -415,19 +415,19 @@ a.sorting-button {
     color: var(--basic-opacity-white);
 }
 
-.footer-social img {
+.footer-social-button {
     background-color: var(--basic-light-blue);
 }
 
-.footer-social img:hover {
+.footer-social-button:hover {
     background-color: var(--basic-blue);
 }
 
-.footer-social img:active {
+.footer-social-button:active {
     background-color: var(--basic-dark-blue);
 }
 
-.filter-type a:hover {
+.filter-type img:hover {
     color: var(--basic-light-blue);
 }
 
@@ -476,99 +476,25 @@ a.sorting-button {
     color: var(--back-color);
 }
 
-
 /* Гриды */
-
-/* .page-body {
-  width: 1200px;
-  margin: 0 auto;
-} */
 
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
+
+body > div {
+    box-shadow: 0 0 10px 0 #888888;
 }
 
 .page {
     height: 100%;
 }
 
-.main-navigation {
+/* .main-navigation {
     outline: 5px solid rgba(0, 255, 0, 0.7);
     outline-offset: -5px;
-}
-
-
-/*
-.features-list {
-  
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 256px 256px 256px 256px;
-  gap: 0px 0px;
-  grid-template-areas:
-    "list-item-1 photo-1 photo-1"
-    "home food souvenirss"
-    "photo-2 photo-2 list-item-2"
-    "list-item-3 list-item-4 list-item-5";
-}
-
-.first-item { 
-  grid-area: list-item-1; 
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.photo-1 { 
-  grid-area: photo-1; 
-  grid-column: 2/4;
-  grid-row: 1/2;
-}
-
-.home { 
-  grid-area: home; 
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.food { 
-  grid-area: food; 
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-.souvenirs { 
-  grid-area: souveniers;
-  grid-column: 3/4;
-  grid-row: 2/3; 
-}
-
-.photo-2 { 
-  grid-area: photo-2; 
-  grid-column: 1/3;
-  grid-row: 3/4;
-}
-
-.second-item { 
-  grid-area: list-item-2; 
-  grid-column: 3/4;
-  grid-row: 3/4;
-}
-
-.list-item-3 { 
-  grid-area: list-item-3; 
-}
-
-.list-item-4 { 
-  grid-area: list-item-4; 
-}
-
-.list-item-5 { 
-  grid-area: list-item-5; 
-}
-
-*/
-
+} */
 
 .site-navigation {
     margin-top: 0;
