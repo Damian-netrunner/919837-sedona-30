@@ -676,12 +676,14 @@ a.sorting-button {
 
 .index-form input:hover {
     background-color: #EBEBEB;
-    ;
 }
 
 .index-form input:focus {
     background-color: var(--basic-white);
+    outline: 2px solid #E5E5E5;
+    outline-offset: -2px;
 }
+
 
 .button-more {
     background-color: var(--basic-brown);
@@ -988,6 +990,7 @@ fieldset {
 .price-fornight {
     font-weight: 700;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .price-counter__min,
