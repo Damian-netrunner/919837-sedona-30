@@ -261,7 +261,7 @@ a {
 
 .hotels-footer {
     position: unset;
-    margin-top: -23px;
+    margin-top: -14px;
 }
 
 
@@ -418,9 +418,11 @@ a {
     padding-left: 0;
     display: flex;
     border-bottom: solid 1px #E5E5E5;
-    padding-bottom: 24px;
+    padding-bottom: 15px;
     padding-left: 74px;
     padding-right: 72px;
+    margin-bottom: 5px;
+    margin-top: 9px;
 }
 
 .result__content-box {
