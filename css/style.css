@@ -118,7 +118,7 @@ a {
 }
 
 .blue__item h3 {
-    width: 170px;
+    width: 151px;
     text-align: center;
     margin: 4px auto 4px;
 
@@ -230,9 +230,7 @@ a {
     margin-bottom: 30px;
 }
 
-.price__inner {
 
-}
 
 .form-header {
     color: var(--basic-white);
@@ -584,8 +582,17 @@ a.sorting-button {
     padding-bottom: 100px;
     box-sizing: border-box;
     position: relative;
+    background-color: cornflowerblue;
 }
 
+.photo-1,
+.photo-2 {
+    background-color: orange;
+}
+
+.result__inner img {
+    background-color: grey;
+}
 
 .sedona-background::after {
     background-image: url(../img/background-decoration.svg);
@@ -609,6 +616,7 @@ a.sorting-button {
     height: 217px;
     background-position: center;
     width: 1200px;
+    background-color: cornflowerblue;
 }
 
 
@@ -1103,4 +1111,21 @@ input[type=number]::-webkit-outer-spin-button {
 
 .third-product {
     width: 40px;
+}
+
+.souvenirs-reason,
+.home-reason,
+.first-reason,
+.fourth-reason,
+.third-reason {
+    padding: 0px 30px;
+}
+
+.food-reason {
+    padding: 0px 20px;
+}
+
+.second-reason,
+.fifth-reason {
+    padding: 0px 42px;
 }
