@@ -124,13 +124,6 @@ a {
 
 }
 
-.blue__item h3 {
-    width: 170px;
-    text-align: center;
-    margin: 4px auto 4px;
-
-}
-
 .features p {
     font-weight: 400;
     font-size: 14px;
@@ -763,6 +756,8 @@ body > div {
 .site-navigation-item {
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 25%;
+    box-sizing: border-box;
 }
 
 .date-field,
@@ -815,14 +810,18 @@ fieldset {
 .site-navigation-item:last-child {
     padding-right: 72px;
 }
+.site-navigation-item:nth-child(3),
+.site-navigation-item:last-child {
+    text-align: right;
+}
 
 .nav-item-photo {
-    padding-right: 134px;
+    /* padding-right: 134px; */
 }
 
 
 .nav-item-map {
-    padding-left: 134px;
+    /* padding-left: 134px; */
 }
 
 .filter-option label {
